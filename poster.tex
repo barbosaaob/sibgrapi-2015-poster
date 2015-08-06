@@ -1,0 +1,93 @@
+\documentclass{sciposter}
+
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{graphicx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{title goes here}
+\author{author name}
+\email{author@email.com}
+\institute{institute --- university}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \norightlogo{}
+% \noleftlogo{}
+\rightlogo{fig/logo.png}
+\leftlogo{fig/logo.png}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\conference{SIBGRAPI 2015 --- XXVIII Conference on Graphics, Patterns and
+	Images}
+
+% SIBGRAPI Logo
+\begin{figure}
+	\vspace{-5cm}
+	\hspace{-5cm}
+	\includegraphics[width=84.1cm]{fig/sibgrapi-logo.png}
+\end{figure}
+
+% Title
+\maketitle
+
+% Teaser
+\begin{figure}
+	\includegraphics[width=\textwidth]{fig/teaser.png}
+\end{figure}
+
+\begin{multicols}{3}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+	\lipsum[1]
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\lipsum[1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}
+\lipsum[1]
+%
+\begin{figure}
+	\includegraphics[width=0.49\textwidth]{fig/result.png}
+	\includegraphics[width=0.49\textwidth]{fig/result.png}
+\end{figure}
+%
+\lipsum[1]
+%
+\begin{figure}
+	\includegraphics[width=\textwidth]{fig/result.png}
+\end{figure}
+%
+\lipsum[1]
+%
+\begin{figure}
+	\includegraphics[width=0.49\textwidth]{fig/result.png}
+	\includegraphics[width=0.49\textwidth]{fig/result.png}
+\end{figure}
+%
+\lipsum[1]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Acknowledgement}
+mom, daddy, CAPES, CNPq, FAPE*\ldots
+
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{fig/logo.png}
+\end{figure}
+
+
+\end{multicols}
+
+\end{document}
